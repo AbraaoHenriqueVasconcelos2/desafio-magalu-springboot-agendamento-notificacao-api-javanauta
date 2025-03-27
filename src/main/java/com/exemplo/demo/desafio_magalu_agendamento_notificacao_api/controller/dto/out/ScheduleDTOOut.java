@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import com.exemplo.demo.desafio_magalu_agendamento_notificacao_api.infrastructure.entities.enums.StatusNotificationEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-public record ScheduleRecordOut(Long id,
+public record ScheduleDTOOut(Long id,
                           String recipientEmail, 
                           String recipientPhone, 
                           String message, 
